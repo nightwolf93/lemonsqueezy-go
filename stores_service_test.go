@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/NdoleStudio/lemonsqueezy-go/internal/helpers"
-	"github.com/NdoleStudio/lemonsqueezy-go/internal/stubs"
+	"github.com/nightwolf93/lemonsqueezy-go/internal/helpers"
+	"github.com/nightwolf93/lemonsqueezy-go/internal/stubs"
 )
 
 func TestStoreService_Get(t *testing.T) {

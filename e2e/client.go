@@ -3,7 +3,7 @@ package e2e
 import (
 	"os"
 
-	lemonsqueezy "github.com/NdoleStudio/lemonsqueezy-go"
+	lemonsqueezy "github.com/nightwolf93/lemonsqueezy-go"
 	_ "github.com/joho/godotenv/autoload" // import LEMONSQUEEZY_API_KEY from .env file
 )
 

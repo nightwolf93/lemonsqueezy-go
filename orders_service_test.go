@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/NdoleStudio/lemonsqueezy-go/internal/helpers"
-	"github.com/NdoleStudio/lemonsqueezy-go/internal/stubs"
+	"github.com/nightwolf93/lemonsqueezy-go/internal/helpers"
+	"github.com/nightwolf93/lemonsqueezy-go/internal/stubs"
 	"github.com/stretchr/testify/assert"
 )
 

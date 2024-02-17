@@ -1,12 +1,12 @@
 # lemonsqueezy-go
 
-[![Build](https://github.com/NdoleStudio/lemonsqueezy-go/actions/workflows/main.yml/badge.svg)](https://github.com/NdoleStudio/lemonsqueezy-go/actions/workflows/main.yml)
-[![codecov](https://codecov.io/gh/NdoleStudio/lemonsqueezy-go/branch/main/graph/badge.svg)](https://codecov.io/gh/NdoleStudio/lemonsqueezy-go)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/NdoleStudio/lemonsqueezy-go/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/NdoleStudio/lemonsqueezy-go/?branch=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/NdoleStudio/lemonsqueezy-go)](https://goreportcard.com/report/github.com/NdoleStudio/lemonsqueezy-go)
-[![GitHub contributors](https://img.shields.io/github/contributors/NdoleStudio/lemonsqueezy-go)](https://github.com/NdoleStudio/lemonsqueezy-go/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/NdoleStudio/lemonsqueezy-go?color=brightgreen)](https://github.com/NdoleStudio/lemonsqueezy-go/blob/master/LICENSE)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/NdoleStudio/lemonsqueezy-go)](https://pkg.go.dev/github.com/NdoleStudio/lemonsqueezy-go)
+[![Build](https://github.com/nightwolf93/lemonsqueezy-go/actions/workflows/main.yml/badge.svg)](https://github.com/nightwolf93/lemonsqueezy-go/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/nightwolf93/lemonsqueezy-go/branch/main/graph/badge.svg)](https://codecov.io/gh/nightwolf93/lemonsqueezy-go)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nightwolf93/lemonsqueezy-go/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/nightwolf93/lemonsqueezy-go/?branch=main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/nightwolf93/lemonsqueezy-go)](https://goreportcard.com/report/github.com/nightwolf93/lemonsqueezy-go)
+[![GitHub contributors](https://img.shields.io/github/contributors/nightwolf93/lemonsqueezy-go)](https://github.com/nightwolf93/lemonsqueezy-go/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/nightwolf93/lemonsqueezy-go?color=brightgreen)](https://github.com/nightwolf93/lemonsqueezy-go/blob/master/LICENSE)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/nightwolf93/lemonsqueezy-go)](https://pkg.go.dev/github.com/nightwolf93/lemonsqueezy-go)
 
 This package provides a go API client for the lemonsqueezy API
 
@@ -15,13 +15,13 @@ This package provides a go API client for the lemonsqueezy API
 `lemonsqueezy-go` is compatible with modern Go releases in module mode, with Go installed:
 
 ```bash
-go get github.com/NdoleStudio/lemonsqueezy-go
+go get github.com/nightwolf93/lemonsqueezy-go
 ```
 
 Alternatively the same can be achieved if you use `import` in a package:
 
 ```go
-import "github.com/NdoleStudio/lemonsqueezy-go"
+import "github.com/nightwolf93/lemonsqueezy-go"
 ```
 
 ## Implemented
@@ -104,7 +104,7 @@ An instance of the client can be created using `New()`.
 package main
 
 import (
-    "github.com/NdoleStudio/lemonsqueezy-go"
+    "github.com/nightwolf93/lemonsqueezy-go"
 )
 
 func main() {
