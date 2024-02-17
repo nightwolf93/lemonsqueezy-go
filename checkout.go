@@ -54,7 +54,7 @@ type CheckoutData struct {
 	BillingAddress []BillingAddress `json:"billing_address"`
 	TaxNumber      string           `json:"tax_number"`
 	DiscountCode   string           `json:"discount_code"`
-	Custom         map[string]any   `json:"custom"`
+	Custom         []any   			`json:"custom"`
 }
 
 // CheckoutPreview contains information about a percentage or amount discount that can be applied to an order at checkout via a code.
@@ -95,14 +95,14 @@ type CheckoutCreateDataQuantity struct {
 
 // CheckoutCreateData represents the data options for creating a checkout.
 type CheckoutCreateData struct {
-	Email                 string                       `json:"email,omitempty"`
-	Name                  string                       `json:"name,omitempty"`
-	BillingAddressCountry string                       `json:"billing_address.country,omitempty"`
-	BillingAddressZip     string                       `json:"billing_address.zip,omitempty"`
-	TaxNumber             string                       `json:"tax_number,omitempty"`
-	DiscountCode          string                       `json:"discount_code,omitempty"`
-	Custom                map[string]any               `json:"custom,omitempty"`
-	VariantQuantities     []CheckoutCreateDataQuantity `json:"variant_quantities,omitempty"`
+	Email                 string                       	`json:"email,omitempty"`
+	Name                  string                       	`json:"name,omitempty"`
+	BillingAddressCountry string                       	`json:"billing_address.country,omitempty"`
+	BillingAddressZip     string                       	`json:"billing_address.zip,omitempty"`
+	TaxNumber             string                       	`json:"tax_number,omitempty"`
+	DiscountCode          string                       	`json:"discount_code,omitempty"`
+	Custom                []any                			`json:"custom,omitempty"`
+	VariantQuantities     []CheckoutCreateDataQuantity 	`json:"variant_quantities,omitempty"`
 }
 
 // CheckoutCreateOptions represents the checkout options for creating a checkout.
